@@ -42,7 +42,7 @@ public class UploadActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_upload);
         uploadImage = findViewById(R.id.uploadImage);
         uploadDesc = findViewById(R.id.uploadDesc);
         uploadTopic = findViewById(R.id.uploadTopic);
